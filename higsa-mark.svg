@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="48" height="48">
+  <defs>
+    <linearGradient id="higsaGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6D28D9"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <!-- hexagon container -->
+  <polygon points="60,4 111,32 111,88 60,116 9,88 9,32" fill="#0A0E17" stroke="url(#higsaGrad)" stroke-width="3"/>
+  <!-- H mark, built from strokes so it stays crisp at small sizes -->
+  <rect x="38" y="34" width="10" height="52" fill="url(#higsaGrad)"/>
+  <rect x="72" y="34" width="10" height="52" fill="url(#higsaGrad)"/>
+  <rect x="38" y="55" width="44" height="10" fill="url(#higsaGrad)"/>
+</svg>
