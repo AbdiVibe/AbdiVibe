@@ -1,215 +1,155 @@
 <!--
   ============================================================
-  CONCEPT A — "APPLE MINIMALISM"
-  Design language: generous whitespace, single accent color,
-  typography-led hierarchy, near-zero visual noise.
-  Everything below is production-ready GitHub-flavored Markdown
-  + inline HTML (GitHub README rendering supports both).
+  CONCEPT B — "CYBERSECURITY / TERMINAL"
+  Design language: dark background, monospace rhythm, terminal
+  window chrome via SVG, restrained green/amber accent. Reads
+  like a security engineer's dotfiles, not a costume.
   ============================================================
 -->
 
 <div align="center">
 
-<br>
-
-<!-- Thin gradient hairline instead of a loud banner image -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,100:0A0A0A&height=3&section=header" width="100%">
-
-<br><br>
-
-<!-- ============ HERO ============ -->
-<h1 style="font-weight:600; letter-spacing:-1px;">Abdimalik Dek Gadhaye</h1>
-
-<h3 style="font-weight:400; color:#6e6e73;">Founder & Lead Software Engineer, Higsa</h3>
-<p style="color:#6e6e73;">Application Security · Full-Stack Engineering · Jijiga, Ethiopia</p>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=4&section=header" width="100%">
 
 <br>
 
-<a href="https://abdivibe.github.io/Abdimalik-Portfolio"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logoColor=white" height="28"></a>
-<a href="https://linkedin.com/in/abdimalik-dek-gadhaye"><img src="https://img.shields.io/badge/LinkedIn-000000?style=flat-square&logoColor=white" height="28"></a>
-<a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-000000?style=flat-square&logoColor=white" height="28"></a>
+<!-- Terminal window mockup, built as inline SVG-style shields for a "chrome" bar -->
+<pre>
+┌─────────────────────────────────────────────────┐
+│  ● ● ●   abdimalik@jijiga: ~                     │
+├─────────────────────────────────────────────────┤
+│  $ whoami                                        │
+│  Abdimalik Dek Gadhaye                           │
+│                                                   │
+│  $ role                                          │
+│  Founder & Lead Software Engineer @ Higsa        │
+│                                                   │
+│  $ location                                      │
+│  Jijiga, Ethiopia                                │
+│                                                   │
+│  $ focus --list                                  │
+│  application-security, cybersecurity, linux,     │
+│  full-stack-development, open-source             │
+└─────────────────────────────────────────────────┘
+</pre>
 
-<br><br>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,100:0A0A0A&height=3&section=header" width="100%">
+<a href="https://abdivibe.github.io/Abdimalik-Portfolio"><img src="https://img.shields.io/badge/PORTFOLIO-1a1a1a?style=for-the-badge&logo=vercel&logoColor=39FF88" height="30"></a>
+<a href="https://linkedin.com/in/abdimalik-dek-gadhaye"><img src="https://img.shields.io/badge/LINKEDIN-1a1a1a?style=for-the-badge&logo=linkedin&logoColor=39FF88" height="30"></a>
+<a href="https://github.com/AbdiVibe"><img src="https://img.shields.io/github/followers/AbdiVibe?style=for-the-badge&label=FOLLOWERS&color=1a1a1a&labelColor=1a1a1a" height="30"></a>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=4&section=header" width="100%">
 
 </div>
 
 <br>
 
-<!-- ============ STATEMENT ============ -->
-<h2 align="center" style="font-weight:600;">Building software that doesn't break under pressure.</h2>
-<p align="center" style="color:#6e6e73; max-width:600px; margin:auto;">
-I design and ship secure, production-grade systems — from developer tooling<br>
-to the infrastructure underneath it. Currently building <b>Higsa</b>, an intelligent<br>
-workspace for software engineers.
-</p>
+## `$ cat about.md`
 
-<br><br>
+From **Civil Engineering** to **Software Engineering** — a deliberate pivot. Structures fail from ignored stress points; systems fail from ignored attack surfaces. I moved from designing physical infrastructure to securing digital infrastructure.
 
-<!-- ============ CURRENTLY BUILDING ============ -->
-<h3 align="center">Currently Building</h3>
+3rd-year Software Engineering student. Founder & Lead Software Engineer at **Higsa**, the intelligent workspace for software engineers — project management, documentation, learning, and AI-assisted workflows in one place. Building in public, shipping continuously.
 
-<table align="center" width="720">
-<tr>
-<td width="100%">
+<br>
 
-**Higsa** — the intelligent workspace for software engineers
-Project management, documentation, learning, and AI-assisted workflows, unified in one product. Built in public, shipped continuously.
+## `$ ps aux | grep building`
 
-`Founder & Lead Engineer` · `Full-Stack + Backend` · [higsa.dev](https://abdivibe.github.io/Abdimalik-Portfolio)
-
-</td>
-</tr>
+<table>
+<tr><th align="left">process</th><th align="left">status</th><th align="left">description</th></tr>
+<tr><td><code>higsa</code></td><td>🟢 active</td><td>Intelligent workspace for engineers — <a href="https://abdivibe.github.io/Abdimalik-Portfolio">live</a></td></tr>
+<tr><td><code>devhub-dashboard</code></td><td>🟢 active</td><td>Developer productivity suite — <a href="https://abdivibe.github.io/DevHub-Dashboard">live</a></td></tr>
+<tr><td><code>security-tools</code></td><td>🟡 building</td><td>Early-stage cybersecurity utilities</td></tr>
 </table>
 
 <br>
 
-<!-- ============ TIMELINE ============ -->
-<h3 align="center">Path</h3>
+## `$ nmap --skills`
 
-<table align="center" width="720">
-<tr><td width="140" align="right" style="color:#6e6e73;"><sub>Year 1</sub></td><td>Started in <b>Civil Engineering</b> — learned to think in systems, tolerances, and failure modes.</td></tr>
-<tr><td align="right" style="color:#6e6e73;"><sub>Transition</sub></td><td>Switched to <b>Software Engineering</b> to build the infrastructure of the future: digital, and defensible.</td></tr>
-<tr><td align="right" style="color:#6e6e73;"><sub>Now</sub></td><td>3rd-year Software Engineering student. Founder of <b>Higsa</b>. Focused on application security and secure full-stack systems.</td></tr>
-<tr><td align="right" style="color:#6e6e73;"><sub>Next</sub></td><td>Shipping cybersecurity tooling and scaling Higsa in public.</td></tr>
-</table>
+```
+PORT      STATE   SERVICE
+python    open    scripting / tooling
+javascript open   full-stack
+java      open    backend
+c++       open    systems
+linux     open    daily-driver, hardening
+node.js   open    backend services
+```
 
-<br><br>
-
-<!-- ============ FOCUS ============ -->
-<h3 align="center">Focus</h3>
-
-<p align="center">
-<code>Application Security</code> &nbsp;·&nbsp;
-<code>Cybersecurity</code> &nbsp;·&nbsp;
-<code>Linux Systems</code> &nbsp;·&nbsp;
-<code>Full-Stack Development</code> &nbsp;·&nbsp;
-<code>Open Source</code>
-</p>
+**Security focus:** OWASP Top 10 · Threat Modeling · Secure SDLC · Defensive Programming
+**Certifications:** IBM Cybersecurity Fundamentals · IBM Application Security
 
 <br>
 
-<!-- ============ STACK — text-led, not a badge wall ============ -->
-<h3 align="center">Stack</h3>
+## `$ git log --oneline --graph`
 
-<table align="center" width="720">
-<tr>
-<td width="33%" valign="top">
+```
+* 2026  Founder & Lead Engineer, Higsa — building in public
+* 2025  Deepened focus: application security, secure backend systems
+* 2024  Switched majors — Civil Engineering → Software Engineering
+* 2023  Started Civil Engineering @ Jijiga University
+```
 
-**Languages**
-Python · JavaScript · Java · C++
+<br>
 
-</td>
-<td width="33%" valign="top">
-
-**Systems**
-Linux · Node.js · REST APIs
-
-</td>
-<td width="33%" valign="top">
-
-**Security**
-OWASP Top 10 · Threat Modeling · Secure SDLC
-
-</td>
-</tr>
-</table>
-
-<br><br>
-
-<!-- ============ PROJECTS ============ -->
-<h3 align="center">Selected Work</h3>
-
-<table align="center" width="720">
-<tr>
-<td width="50%" valign="top">
-
-**Higsa**
-Intelligent workspace unifying project management, docs, learning, and AI workflows for engineers.
-[Live →](https://abdivibe.github.io/Abdimalik-Portfolio)
-
-</td>
-<td width="50%" valign="top">
-
-**DevHub Dashboard**
-Developer productivity suite — GitHub analyzer, task manager, notes, JSON/password tools, full PWA.
-[Live →](https://abdivibe.github.io/DevHub-Dashboard)
-
-</td>
-</tr>
-<tr><td colspan="2" height="16"></td></tr>
-<tr>
-<td width="50%" valign="top">
-
-**Portfolio**
-Personal engineering showcase — clean architecture, zero framework bloat.
-[Live →](https://abdivibe.github.io/Abdimalik-Portfolio)
-
-</td>
-<td width="50%" valign="top">
-
-**Security Tooling** <sub>(in progress)</sub>
-Early-stage cybersecurity utilities — details to follow as they ship.
-
-</td>
-</tr>
-</table>
-
-<br><br>
-
-<!-- ============ ACTIVITY — muted, monochrome, transparent bg ============ -->
-<h3 align="center">Activity</h3>
+## `$ ./run_stats.sh`
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=AbdiVibe&show_icons=true&theme=graywhite&hide_border=true&hide_title=true&bg_color=00000000" height="165">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdiVibe&layout=compact&theme=graywhite&hide_border=true&bg_color=00000000" height="165">
+<img src="https://github-readme-stats.vercel.app/api?username=AbdiVibe&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&icon_color=39FF88&title_color=39FF88" height="165">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdiVibe&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=39FF88" height="165">
 </div>
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AbdiVibe&theme=default&hide_border=true&background=00000000&ring=0A0A0A&fire=0A0A0A" height="165">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=AbdiVibe&theme=github-dark-blue&hide_border=true&background=0D1117&ring=39FF88&fire=39FF88" height="165">
 </div>
 
-<br><br>
-
-<!-- ============ CERTIFICATIONS ============ -->
-<h3 align="center">Certifications</h3>
-<p align="center">IBM Cybersecurity Fundamentals · IBM Application Security</p>
+<div align="center">
+<img src="https://raw.githubusercontent.com/AbdiVibe/AbdiVibe/output/github-contribution-grid-snake-dark.svg">
+</div>
 
 <br>
 
-<!-- ============ ROADMAP ============ -->
-<h3 align="center">Learning Roadmap</h3>
-<p align="center" style="color:#6e6e73;">
-Offensive security fundamentals → Secure backend architecture → Applied cryptography → Cloud security (AWS/Azure) → Contributing to major OSS security tooling
-</p>
+## `$ cat roadmap.txt`
 
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,100:0A0A0A&height=3&section=header" width="100%">
+```
+[x] Application security fundamentals
+[x] IBM certifications — cybersecurity, appsec
+[ ] Offensive security (OSCP-track fundamentals)
+[ ] Applied cryptography
+[ ] Cloud security — AWS / Azure hardening
+[ ] Contribute to a major OSS security project
+```
 
 <br>
 
-<p align="center" style="color:#6e6e73;">
-Jijiga, Ethiopia &nbsp;·&nbsp; Founder, Higsa &nbsp;·&nbsp; Software Engineering '26
-</p>
+## `$ contact --secure`
 
-<p align="center" style="color:#6e6e73;"><sub>Open to security-focused collaboration and meaningful open-source contribution.</sub></p>
+```
+status     : open to security-focused collaboration
+channels   : linkedin, github, portfolio
+principle  : "Secure code isn't an afterthought — it's the foundation."
+```
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=4&section=header" width="100%">
+
+<sub>Jijiga, Ethiopia · Founder, Higsa · Software Engineering '26</sub>
 
 </div>
 
 <!--
   ============================================================
-  IMPLEMENTATION NOTES (delete before publishing if you like)
+  IMPLEMENTATION NOTES
   ------------------------------------------------------------
-  1. Replace mailto:you@example.com with a real address or drop the badge.
-  2. github-readme-stats "graywhite" theme + bg_color=00000000 gives the
-     transparent, monochrome Apple look on both light/dark GitHub modes.
-  3. The three capsule-render hairlines are 3px solid rects — swap the
-     hex for your accent color if you want something other than near-black.
-  4. Keep every table at width="720" so the whole page reads as one
-     centered column — this is what creates the "Apple page" feel.
-  5. Suggested repo secret sauce: create a repo named exactly `AbdiVibe`
-     (matches your username) — GitHub auto-renders its README.md on
-     your profile. That's this file.
+  1. The <pre> "terminal" block is plain text inside a <pre> tag —
+     renders monospaced on GitHub with zero external image weight.
+  2. Swap #39FF88 (terminal green) for #FFB000 (amber) if you want
+     a warmer "old CRT" feel instead — stay consistent everywhere.
+  3. github-readme-stats theme=github_dark + matching bg_color/icon
+     colors keeps every widget visually native to the terminal shell.
+  4. Snake animation requires a GitHub Action in your profile repo —
+     see the Actions section in the recommendation notes.
+  5. This concept intentionally avoids matrix-rain GIFs and typing
+     SVGs per your constraints — the terminal motif is static/textual,
+     which reads as more credible to a security-minded audience.
   ============================================================
 -->
