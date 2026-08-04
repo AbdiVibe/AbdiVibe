@@ -1,136 +1,159 @@
 <!--
   ============================================================
-  CONCEPT B — "CYBERSECURITY / TERMINAL"
-  Design language: dark background, monospace rhythm, terminal
-  window chrome via SVG, restrained green/amber accent. Reads
-  like a security engineer's dotfiles, not a costume.
+  CONCEPT C — "MODERN SaaS / VERCEL"
+  Design language: bold gradient hero, card-grid layout, product
+  launch energy. Reads like a founder's landing page, not a resume.
   ============================================================
 -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=4&section=header" width="100%">
+<!-- Gradient hero banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D28D9,100:0EA5E9&height=200&section=header&text=Abdimalik%20Dek%20Gadhaye&fontSize=38&fontAlignY=42&fontColor=ffffff&animation=fadeIn&desc=Founder%20%26%20Lead%20Engineer%20%40%20Higsa&descAlignY=60&descSize=16&descColor=e5e7eb" width="100%">
 
 <br>
 
-<!-- Terminal window mockup, built as inline SVG-style shields for a "chrome" bar -->
-<pre>
-┌─────────────────────────────────────────────────┐
-│  ● ● ●   abdimalik@jijiga: ~                     │
-├─────────────────────────────────────────────────┤
-│  $ whoami                                        │
-│  Abdimalik Dek Gadhaye                           │
-│                                                   │
-│  $ role                                          │
-│  Founder & Lead Software Engineer @ Higsa        │
-│                                                   │
-│  $ location                                      │
-│  Jijiga, Ethiopia                                │
-│                                                   │
-│  $ focus --list                                  │
-│  application-security, cybersecurity, linux,     │
-│  full-stack-development, open-source             │
-└─────────────────────────────────────────────────┘
-</pre>
+<img src="https://img.shields.io/badge/Founder%20%26%20Lead%20Engineer-Higsa-6D28D9?style=for-the-badge">
+<img src="https://img.shields.io/badge/Building%20in%20Public-🚀-0EA5E9?style=for-the-badge">
 
-<a href="https://abdivibe.github.io/Abdimalik-Portfolio"><img src="https://img.shields.io/badge/PORTFOLIO-1a1a1a?style=for-the-badge&logo=vercel&logoColor=39FF88" height="30"></a>
-<a href="https://linkedin.com/in/abdimalik-dek-gadhaye"><img src="https://img.shields.io/badge/LINKEDIN-1a1a1a?style=for-the-badge&logo=linkedin&logoColor=39FF88" height="30"></a>
-<a href="https://github.com/AbdiVibe"><img src="https://img.shields.io/github/followers/AbdiVibe?style=for-the-badge&label=FOLLOWERS&color=1a1a1a&labelColor=1a1a1a" height="30"></a>
+<br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=4&section=header" width="100%">
+<a href="https://abdivibe.github.io/Abdimalik-Portfolio"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white"></a>
+<a href="https://linkedin.com/in/abdimalik-dek-gadhaye"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
+<a href="https://github.com/AbdiVibe"><img src="https://img.shields.io/github/followers/AbdiVibe?style=flat-square&label=Followers&color=6D28D9"></a>
 
 </div>
 
 <br>
 
-## `$ cat about.md`
+<!-- ============ PRODUCT-STYLE INTRO ============ -->
+<table width="100%">
+<tr><td align="center">
 
-From **Civil Engineering** to **Software Engineering** — a deliberate pivot. Structures fail from ignored stress points; systems fail from ignored attack surfaces. I moved from designing physical infrastructure to securing digital infrastructure.
+### Building the intelligent workspace for software engineers
 
-3rd-year Software Engineering student. Founder & Lead Software Engineer at **Higsa**, the intelligent workspace for software engineers — project management, documentation, learning, and AI-assisted workflows in one place. Building in public, shipping continuously.
+Project management, documentation, learning, and AI-assisted workflows — unified, so engineers stop context-switching between six tools to ship one feature.
 
-<br>
-
-## `$ ps aux | grep building`
-
-<table>
-<tr><th align="left">process</th><th align="left">status</th><th align="left">description</th></tr>
-<tr><td><code>higsa</code></td><td>🟢 active</td><td>Intelligent workspace for engineers — <a href="https://abdivibe.github.io/Abdimalik-Portfolio">live</a></td></tr>
-<tr><td><code>devhub-dashboard</code></td><td>🟢 active</td><td>Developer productivity suite — <a href="https://abdivibe.github.io/DevHub-Dashboard">live</a></td></tr>
-<tr><td><code>security-tools</code></td><td>🟡 building</td><td>Early-stage cybersecurity utilities</td></tr>
+</td></tr>
 </table>
 
 <br>
 
-## `$ nmap --skills`
+<!-- ============ FEATURE CARDS ============ -->
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
-```
-PORT      STATE   SERVICE
-python    open    scripting / tooling
-javascript open   full-stack
-java      open    backend
-c++       open    systems
-linux     open    daily-driver, hardening
-node.js   open    backend services
-```
+### 🧠 Higsa
+**Founder & Lead Software Engineer**
+The intelligent workspace unifying project management, docs, learning, and AI workflows for engineers.
 
-**Security focus:** OWASP Top 10 · Threat Modeling · Secure SDLC · Defensive Programming
-**Certifications:** IBM Cybersecurity Fundamentals · IBM Application Security
+`Live` · `Building in Public`
+[Visit →](https://abdivibe.github.io/Abdimalik-Portfolio)
+
+</td>
+<td width="50%" valign="top">
+
+### 🛠 DevHub Dashboard
+**Developer productivity suite**
+GitHub analyzer, task manager, notes, JSON formatter, password generator, full PWA + dark/light themes.
+
+`Live` · `Solo-built`
+[Visit →](https://abdivibe.github.io/DevHub-Dashboard)
+
+</td>
+</tr>
+<tr><td colspan="2" height="12"></td></tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🌐 Portfolio
+**Professional showcase**
+Clean architecture, fast load, zero framework bloat — a case study in itself.
+
+`Live`
+[Visit →](https://abdivibe.github.io/Abdimalik-Portfolio)
+
+</td>
+<td width="50%" valign="top">
+
+### 🔐 Security Tools
+**Cybersecurity tooling** — in progress
+Early builds focused on defensive tooling and applied appsec.
+
+`In Progress`
+
+</td>
+</tr>
+</table>
 
 <br>
 
-## `$ git log --oneline --graph`
-
-```
-* 2026  Founder & Lead Engineer, Higsa — building in public
-* 2025  Deepened focus: application security, secure backend systems
-* 2024  Switched majors — Civil Engineering → Software Engineering
-* 2023  Started Civil Engineering @ Jijiga University
-```
-
-<br>
-
-## `$ ./run_stats.sh`
-
+<!-- ============ STACK CHIPS ============ -->
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=AbdiVibe&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&icon_color=39FF88&title_color=39FF88" height="165">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdiVibe&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=39FF88" height="165">
+
+### Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+**Focus:** Cybersecurity · Application Security · Full-Stack Development · Open Source
+
 </div>
 
-<div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AbdiVibe&theme=github-dark-blue&hide_border=true&background=0D1117&ring=39FF88&fire=39FF88" height="165">
-</div>
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/AbdiVibe/AbdiVibe/output/github-contribution-grid-snake-dark.svg">
-</div>
-
 <br>
 
-## `$ cat roadmap.txt`
+<!-- ============ TIMELINE AS "CHANGELOG" ============ -->
+### Changelog
 
 ```
-[x] Application security fundamentals
-[x] IBM certifications — cybersecurity, appsec
-[ ] Offensive security (OSCP-track fundamentals)
-[ ] Applied cryptography
-[ ] Cloud security — AWS / Azure hardening
-[ ] Contribute to a major OSS security project
+v2026.1  — Founder & Lead Engineer @ Higsa, building in public
+v2025.4  — Certified: IBM Application Security
+v2025.1  — Certified: IBM Cybersecurity Fundamentals
+v2024.3  — Switched majors: Civil Engineering → Software Engineering
+v2023.1  — Started Civil Engineering @ Jijiga University
 ```
 
 <br>
 
-## `$ contact --secure`
-
-```
-status     : open to security-focused collaboration
-channels   : linkedin, github, portfolio
-principle  : "Secure code isn't an afterthought — it's the foundation."
-```
-
+<!-- ============ METRICS CARDS ============ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0D1117&height=4&section=header" width="100%">
+### Metrics
+
+<img src="https://github-readme-stats.vercel.app/api?username=AbdiVibe&show_icons=true&theme=vercel-dark&hide_border=true&border_radius=10" height="165">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdiVibe&layout=compact&theme=vercel-dark&hide_border=true&border_radius=10" height="165">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=AbdiVibe&theme=vercel-dark&hide_border=true&border_radius=10" height="165">
+
+</div>
+
+<br>
+
+<!-- ============ ROADMAP AS PRODUCT ROADMAP ============ -->
+### Roadmap
+
+| Status | Item |
+|---|---|
+| ✅ | Application security fundamentals |
+| ✅ | IBM Cybersecurity + Application Security certifications |
+| 🔄 | Higsa public beta |
+| ⏳ | Offensive security fundamentals |
+| ⏳ | Cloud security (AWS / Azure) |
+| ⏳ | First major open-source security contribution |
+
+<br>
+
+<!-- ============ CTA FOOTER ============ -->
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:6D28D9&height=120&section=footer" width="100%">
+
+**Open to security-focused collaboration, open-source contribution, and conversations about Higsa.**
 
 <sub>Jijiga, Ethiopia · Founder, Higsa · Software Engineering '26</sub>
 
@@ -140,16 +163,15 @@ principle  : "Secure code isn't an afterthought — it's the foundation."
   ============================================================
   IMPLEMENTATION NOTES
   ------------------------------------------------------------
-  1. The <pre> "terminal" block is plain text inside a <pre> tag —
-     renders monospaced on GitHub with zero external image weight.
-  2. Swap #39FF88 (terminal green) for #FFB000 (amber) if you want
-     a warmer "old CRT" feel instead — stay consistent everywhere.
-  3. github-readme-stats theme=github_dark + matching bg_color/icon
-     colors keeps every widget visually native to the terminal shell.
-  4. Snake animation requires a GitHub Action in your profile repo —
-     see the Actions section in the recommendation notes.
-  5. This concept intentionally avoids matrix-rain GIFs and typing
-     SVGs per your constraints — the terminal motif is static/textual,
-     which reads as more credible to a security-minded audience.
+  1. Gradient hex pair (#6D28D9 → #0EA5E9, violet→sky) is the
+     "Vercel/Linear" palette — swap for your own two-stop gradient
+     but keep it to exactly two stops for the clean SaaS look.
+  2. theme=vercel-dark on github-readme-stats matches this palette
+     natively — don't mix with tokyonight/dracula here.
+  3. Feature cards use a plain 2-col HTML table — GitHub renders
+     this responsively enough on both desktop and mobile.
+  4. Emoji here (🧠🛠🌐🔐✅🔄⏳) are used as functional status/category
+     markers, not decoration — this is the "only where it adds value"
+     application of your no-emoji-clutter rule.
   ============================================================
 -->
